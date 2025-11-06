@@ -58,7 +58,7 @@ const Skills = () => {
                 </div>
 
                 {/* Hover overlay */}
-                <div className="absolute flex justify-center items-center inset-0 bg-gradient-to-br from-gray-800 to-black opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+                <div className="absolute flex justify-center items-center inset-0 bg-linear-to-br from-gray-800 to-black opacity-0 group-hover:opacity-100 transition-opacity duration-700">
                   <div className="text-center">
                     <div className="text-6xl mb-4 group-hover:scale-125 transition-transform duration-700 ease-out">
                       {skill.icon}
@@ -95,7 +95,7 @@ const Skills = () => {
                 </div>
 
                 {/* Hover overlay */}
-                <div className="absolute flex justify-center items-center inset-0 bg-gradient-to-br from-gray-800 to-black opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute flex justify-center items-center inset-0 bg-linear-to-br from-gray-800 to-black opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="text-center">
                     <div className="text-6xl mb-4 group-hover:scale-125 transition-transform duration-700 ease-out">
                       {skill.icon}
@@ -129,7 +129,7 @@ const Skills = () => {
                 </div>
 
                 {/* Hover overlay */}
-                <div className="absolute flex justify-center items-center inset-0 bg-gradient-to-br from-gray-800 to-black opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute flex justify-center items-center inset-0 bg-linear-to-br from-gray-800 to-black opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="text-center">
                     <div className="text-6xl mb-4 group-hover:scale-125 transition-transform duration-700 ease-out">
                       {skill.icon}
