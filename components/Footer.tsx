@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Footer = () => {
   return (
     <footer className="bg-black text-white py-8 px-6 border-t border-gray-800">
@@ -7,7 +5,8 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-center md:text-left">
             <p className="text-gray-300">
-              © 2024 <span className="text-[#0EA5E9] font-semibold">Tayyab Ur Rehman Khattak</span>. All rights reserved.
+              © 2024 Design By
+               <span className="text-[#0EA5E9] font-semibold">Tayyab Ur Rehman Khattak</span>.
             </p>
           </div>
           

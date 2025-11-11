@@ -20,7 +20,7 @@ const Experience = () => {
     },
     {
       title: "Backend Developer Intern",
-      company: "Company Name",
+      company: "Aivatek",
       location: "Islamabad",
       duration: "4 Months",
       type: "Internship",
@@ -28,7 +28,7 @@ const Experience = () => {
     },
     {
       title: "Frontend Developer Intern",
-      company: "Company Name",
+      company: "Aivatek",
       location: "Islamabad",
       duration: "6 Months",
       type: "Internship",
@@ -40,10 +40,10 @@ const Experience = () => {
     <section className="py-20 px-6 bg-black text-white" id='experiences'>
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4 tracking-tight uppercase">
+          <h2 data-aos="fade-down" className="text-4xl font-bold mb-4 tracking-tight uppercase">
             Work <span className="text-[#0EA5E9]">Experience</span>
           </h2>
-          <div className="w-24 h-1 bg-white mx-auto"></div>
+          <div data-aos="fade-down" data-aos-delay="200" className="w-24 h-1 bg-white mx-auto"></div>
         </div>
 
         <div className="relative">
@@ -52,7 +52,7 @@ const Experience = () => {
           
           <div className="space-y-12">
             {experiences.map((exp, index) => (
-              <div key={index} className={`relative flex items-center ${index % 2 === 0 ? 'justify-start' : 'justify-end'}`}>
+              <div key={index} data-aos={index % 2 === 0 ? 'fade-right' : 'fade-left'} data-aos-delay={index * 200} className={`relative flex items-center ${index % 2 === 0 ? 'justify-start' : 'justify-end'}`}>
                 {/* Timeline dot */}
                 <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-[#0EA5E9] rounded-full border-4 border-black z-10"></div>
                 

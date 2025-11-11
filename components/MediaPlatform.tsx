@@ -1,4 +1,3 @@
-import React from "react";
 import { Linkedin, Github, Instagram } from "lucide-react";
 
 const MediaPlatform = () => {
@@ -30,6 +29,7 @@ const MediaPlatform = () => {
       >
         <Instagram size={24} />
       </a>
+
     </div>
   );
 };

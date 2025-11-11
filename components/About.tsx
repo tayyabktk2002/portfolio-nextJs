@@ -27,7 +27,7 @@ const AnimatedBackground = () => {
   return (
     <div className="absolute inset-0 overflow-hidden">
       {/* Gradient Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black opacity-90" />
+      <div className="absolute inset-0 bg-linear-to-br from-black via-gray-900 to-black opacity-90" />
 
       {/* Floating Particles */}
       {particles.map((particle, i) => (
@@ -51,9 +51,9 @@ const AnimatedBackground = () => {
       />
 
       {/* Animated Lines */}
-      <div className="absolute top-0 left-1/2 w-px h-full bg-gradient-to-b from-transparent via-[#0EA5E9] to-transparent opacity-20 animate-pulse" />
+      <div className="absolute top-0 left-1/2 w-px h-full bg-linear-to-b from-transparent via-[#0EA5E9] to-transparent opacity-20 animate-pulse" />
       <div
-        className="absolute left-0 top-1/2 w-full h-px bg-gradient-to-r from-transparent via-[#0EA5E9] to-transparent opacity-20 animate-pulse"
+        className="absolute left-0 top-1/2 w-full h-px bg-linear-to-r from-transparent via-[#0EA5E9] to-transparent opacity-20 animate-pulse"
         style={{ animationDelay: "1s" }}
       />
     </div>
@@ -77,22 +77,22 @@ const About = () => {
       `}</style>
       <div className="relative z-10 max-w-4xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4 tracking-tight uppercase">
+          <h2 data-aos="fade-down" className="text-4xl font-bold mb-4 tracking-tight uppercase">
             About <span className="text-[#0EA5E9]">Me</span>
           </h2>
-          <div className="w-24 h-1 bg-white mx-auto"></div>
+          <div data-aos="fade-down" data-aos-delay="200" className="w-24 h-1 bg-white mx-auto"></div>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="order-2 md:order-1">
-            <div className="w-80 h-80 mx-auto  rounded-2xl flex items-center justify-center">
+          <div data-aos="fade-right" className="order-2 md:order-1">
+            <div className="xs:w-80 xs:h-80 w-full h-full mx-auto  rounded-2xl flex items-center justify-center">
               <div className="text-black text-6xl">
-                <img src="/about.jpg" alt="" className="rounded-2xl" />
+                <img src="/profile.png" alt="" className="rounded-2xl" />
               </div>
             </div>
           </div>
 
-          <div className="order-1 md:order-2 space-y-8">
+          <div data-aos="fade-left" className="order-1 md:order-2 space-y-8">
             <div>
               <h3 className="text-2xl font-bold mb-4 text-white">Who I Am</h3>
               <p className="text-gray-300 text-lg leading-relaxed">
@@ -145,7 +145,7 @@ const About = () => {
         </div>
 
         <div className="mt-16 text-center">
-          <div className="bg-white text-black p-8 rounded-2xl max-w-3xl mx-auto">
+          <div data-aos="fade-up" className="bg-white text-black p-8 rounded-2xl max-w-3xl mx-auto">
             <blockquote className="text-xl font-medium italic">
               &ldquo;I&rsquo;m a Full Stack Developer who focuses on creating
               clean UI, scalable backend systems, and smooth user experiences. I

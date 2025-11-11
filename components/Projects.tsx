@@ -52,13 +52,13 @@ const Projects = () => {
     <section className="py-20 px-6 bg-black text-white" id="projects">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold mb-8 tracking-tight uppercase">
+          <h2 data-aos="fade-down" className="text-3xl font-bold mb-8 tracking-tight uppercase">
             My <span className="text-[#0EA5E9]">Projects</span>
           </h2>
-          <div className="w-24 h-1 bg-white mx-auto mb-8"></div>
+          <div data-aos="fade-down" data-aos-delay="200" className="w-24 h-1 bg-white mx-auto mb-8"></div>
 
           {/* Tabs */}
-          <div className="flex justify-center mb-8">
+          <div data-aos="fade-up" data-aos-delay="400" className="flex justify-center mb-8">
             <div className="bg-gray-800 p-1 rounded-lg">
               <button
                 onClick={() => setActiveTab("freelance")}
@@ -88,6 +88,8 @@ const Projects = () => {
           {currentProjects.map((project, index) => (
             <div
               key={index}
+              data-aos="fade-up"
+              data-aos-delay={index * 200}
               className="group relative bg-white text-black rounded-lg overflow-hidden shadow-2xl hover:shadow-white/10 transition-all duration-500 hover:-translate-y-2"
             >
               <div className="aspect-video bg-gray-100 overflow-hidden relative">

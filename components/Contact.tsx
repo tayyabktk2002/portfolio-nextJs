@@ -60,14 +60,14 @@ const Contact = () => {
 
       <div className="relative z-10 max-w-4xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4 tracking-tight uppercase">
+          <h2 data-aos="fade-down" className="text-4xl font-bold mb-4 tracking-tight uppercase">
             Get In <span className="text-[#0EA5E9]">Touch</span>
           </h2>
-          <div className="w-24 h-1 bg-white mx-auto"></div>
+          <div data-aos="fade-down" data-aos-delay="200" className="w-24 h-1 bg-white mx-auto"></div>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-start">
-          <div className="space-y-8">
+          <div data-aos="fade-right" className="space-y-8">
             <div>
               <h3 className="text-2xl font-bold mb-4 text-white">
                 Let&apos;s Connect
@@ -100,7 +100,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="bg-white/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10">
+          <div data-aos="fade-left" className="bg-white/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10">
             <form
               className="space-y-6"
               action="https://formspree.io/f/mbjnqvlv"
