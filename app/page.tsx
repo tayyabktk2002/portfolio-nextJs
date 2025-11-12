@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Chatling from "@/components/Chatbot";
 import Contact from "@/components/Contact";
 import Experience from "@/components/Experience";
 import Hero from "@/components/Hero";
@@ -9,13 +10,14 @@ import WhatDo from "@/components/WhatDo";
 export default function Home() {
   return (
     <div>
-        <Hero />
-        <About/>
-        <WhatDo/>
-        <Projects />
-        <Skills />
-        <Experience/>
-        <Contact />
+      <Hero />
+      <About />
+      <WhatDo />
+      <Projects />
+      <Skills />
+      <Experience />
+      <Contact />
+      <Chatling />
     </div>
   );
 }
